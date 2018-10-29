@@ -2,14 +2,14 @@
 Filler 
 </h1>
 
-<h3> Description </h3>
+<h3 align="center"> Description </h3>
 <p>Créez votre joueur pour affronter d’autres étudiants sur le célèbre (ou pas) plateau du Filler. Le principe est simple : deux joueurs s’affrontent sur un plateau, et doivent placer, tour à tour, la pièce que le maître du jeu (fourni sous la forme d’un exécutable Ruby) leur donne, gagnant ainsi des points. La partie s’arrête dès qu’une pièce ne peut plus être placée. Petit projet ludique !</p>
 
 <p><b>Objectif :</b> Créer un champion Filler</p>
 <p><b>Langage :</b> C</p>
 <p><b>Fonctions autorisées :</b>  write, malloc, free, read, perror, strerror</p>
 
-<h3> But du jeu </h3>
+<h3 align="center"> But du jeu </h3>
 • Deux adversaires s’affrontent à tour de rôle.</br>
 • L’objectif est de gagner le plus de points en remplissant le plateau de jeu avec le
 plus de pièces possible.</br>
@@ -30,7 +30,7 @@ ou a été mal posée.</br>
 • La VM calcule ensuite le score pour chacun des deux programmes joueurs. Le score
 le plus élevé remporte la partie</br>
 
-<h3> Le plateau</h3>
+<h3 align="center"> Le plateau</h3>
 Un plateau est donc une grille de deux dimensions avec un nombre de lignes et de
 colonnes arbitraires. Pour lancer la partie un plateau initial doit être passée en argument
 à la VM. Ce plateau initial doit comporter une forme de départ pour chaque joueur.</br>
@@ -53,7 +53,7 @@ Voici un exemple de plateau initial de 14 par 30 :
 `012 ..............................`</br>
 `013 ..............................`</br>
 
-<h3> Les piéces</h3>
+<h3 align="center"> Les piéces</h3>
 Les pièces sont générées aléatoirement par la VM. Vous ne pouvez pas prévoir leur
 taille ni leur forme avant que la VM ne les transmettent à votre programme. Voiçi quelques
 exemples arbitraires de pièces possibles pour vous donner une idée :</br>
@@ -75,7 +75,7 @@ exemples arbitraires de pièces possibles pour vous donner une idée :</br>
 ` **....`</br>
 ` *.....`</br>
 
-<h3>Le programme joueur</h3>
+<h3 align="center">Le programme joueur</h3>
 Vous comprenez donc maintenant que le but du projet Filler est d’écrire un programme
 joueur capable de battre son adversaire. Ce programme joueur est passé en
 paramètre à la VM qui se chargera d’exécuter chaque programme joueur, puis de lui
